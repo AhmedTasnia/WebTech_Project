@@ -83,7 +83,6 @@ html {
     align-items: center;
     gap: 10px;
 }
-
 .type1{
     background-color: #5EB47C;
     padding: 40px;
@@ -155,6 +154,8 @@ html {
 .Consultant-content h3{
     font-size: 12px;
     background-color:  #5EB47C;
+    color: white;
+    padding: 10px;
 }
 .Consultant-img{
     width: 300px;
@@ -164,9 +165,19 @@ html {
 .Consultant-title{
     font-weight: 400;
     font-size: 28px;
+    color: white;
     background-color:  #5EB47C;
 }
-
+.Consultant1, .Consultant2, .Consultant3, .Consultant4{
+    display: flex;
+    flex-direction: column;
+}
+.more{
+    align-content: center;
+}
+.consultant_btn{
+    margin-top: 20px;
+}
 
 /* OurSelfs Styles */
 .about-us{
@@ -195,7 +206,6 @@ html {
     width: 90px;
     height: 90px;
 }
-
 .card-1{
     border-top: 2px solid #007D6E;
     border-bottom: 2px solid #007D6E;
@@ -220,3 +230,37 @@ html {
     align-content: center;
     color: white;
 }
+
+/* Footer Styles */
+.footer-logo{
+    display: flex;
+    gap: 15px;
+    color: white;
+    align-items: center;
+
+}
+footer{
+    background: linear-gradient(to left, #007D6E, #5EB47C ); 
+   
+}
+.logo-footer{
+    width: 50px;
+    height: 50px; 
+}
+.footer-container{
+    color: white;
+    display: flex;
+    max-width: 1280px;
+    align-items: center;  
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px;
+}
+.footer-description{
+    max-width: 350px;
+    color: white;
+}
+.about-us{
+    padding-top: 40px;
+}
+
