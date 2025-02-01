@@ -6,7 +6,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #e0e7ff;
+    background-color:#e7fff6;
+    /* background-color:#EC744A; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +26,8 @@ body {
 
 .illustration {
     background-color: #636fa1;
-    color: #ffffff;
+    /* color: #ffffff; */
+    background: linear-gradient(to left, #007D6E, #5EB47C );
     padding: 20px;
     text-align: center;
     flex: 1;
@@ -90,7 +92,7 @@ form input {
 }
 
 form button {
-    background-color:#636fa1;
+    background-color:#bacdc5;
     color: #ffffff;
     padding: 10px;
     border: none;
@@ -101,7 +103,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #3730a3;
+    background-color: #007D6E;
 }
 
 form p {

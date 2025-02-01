@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment</title>
+    <link rel="stylesheet" href="Styles/bookAppointment.css">
+    <script src="https://kit.fontawesome.com/6a2c66ea03.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <h1>Book an Appointment</h1>
+        <p>Schedule a session with your preferred therapist.</p>
+    </header>
+    
+    <section class="appointment-form">
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Preferred Date</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Preferred Time</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+            <div class="form-group">
+                <label for="therapist">Select Therapist</label>
+                <select id="therapist" name="therapist">
+                    <option value="Dr. John Doe">Dr. John Doe</option>
+                    <option value="Dr. Jane Smith">Dr. Jane Smith</option>
+                    <option value="Dr. Emily White">Dr. Emily White</option>
+                </select>
+            </div>
+            <a href="conformation.html"><button type="submit" class="btn-submit">Confirm Appointment</button></a>
+        </form>
+    </section>
+</body>
+</html>
